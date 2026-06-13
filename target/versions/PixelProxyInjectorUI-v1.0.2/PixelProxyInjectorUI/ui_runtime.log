@@ -1,0 +1,44 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=18844 -> proxy-1
+[game] detected PixelWorlds.exe pid=18844 route=proxy-1
+[ready] all system ready
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used  
+[summary] -----  --------  -------------------------  -------  ------  ----  ------
+[summary] 18844  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=18844 63807 -> 63.183.104.49:10001 via 192.168.100.98:15001
+[ready] all system ready
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used  
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------
+[summary] 18844  connected  growtechcentral.com:10000  4s       0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=18844 proxy=growtechcentral.com:10000 dst=63.183.104.49:10001 started src_port=63807
+[conn] pid=18844 ended after 6s down=4.2KB up=1.8KB first_down=0.81s first_up=0.00s reason=game_closed
+[redirect] pid=18844 63832 -> 63.183.104.49:10001 via 192.168.100.98:15001
+[conn] pid=18844 proxy=growtechcentral.com:10000 dst=63.183.104.49:10001 started src_port=63832
+[conn] pid=18844 ended after 4s down=4.0KB up=1.5KB first_down=0.67s first_up=0.00s reason=game_closed
+[redirect] pid=18844 63838 -> 3.65.35.219:10001 via 192.168.100.98:15001
+[ready] all system ready
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used  
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------
+[summary] 18844  connected  growtechcentral.com:10000  17s      647B    260B  0.01MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=18844 proxy=growtechcentral.com:10000 dst=3.65.35.219:10001 started src_port=63838
+[conn] pid=18844 ended after 13s down=40.2KB up=2.5KB first_down=2.52s first_up=0.00s reason=game_closed
+[warn] closed PixelWorlds.exe pid=18844
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.05MB

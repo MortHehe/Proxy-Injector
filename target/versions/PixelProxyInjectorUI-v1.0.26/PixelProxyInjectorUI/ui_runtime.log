@@ -1,0 +1,93 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=27196 -> proxy-1
+[game] detected PixelWorlds.exe pid=27196 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=27196 60426 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=27196 60431 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=27196 60437 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=27196 60439 -> 175.139.142.25:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  8s       0B      0B    0.00MB  1330ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=34.8.90.77:443 started src_port=60426
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  9s       3.9KB   409B  0.00MB  546ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=34.96.113.148:443 started src_port=60431
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  9s       8.9KB   9.1KB  0.01MB  546ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=34.120.217.85:443 started src_port=60437
+[redirect] pid=27196 52290 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=27196 52294 -> 18.202.125.140:443 via 192.168.100.98:15001
+[redirect] pid=27196 52295 -> 18.202.125.140:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  11s      7.7KB   3.8KB  0.02MB  520ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=63.176.210.142:10001 started src_port=52290
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  11s      861B    457B  0.02MB  520ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=18.202.125.140:443 started src_port=52294
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=18.202.125.140:443 started src_port=52295
+[warn] pid=27196 52300 IPv6 target 2404:6800:4001:817::200a:443; bypassed because the upstream proxy may reject IPv6
+[error] pid=27196 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  failed  growtechcentral.com:10000  19s      2.2KB   708B  0.04MB  694ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[redirect] pid=27196 52304 -> 175.139.142.25:443 via 192.168.100.98:15001
+[conn] pid=27196 ended after 8s down=5.3KB up=2.0KB first_down=0.75s first_up=0.00s reason=game_closed
+[redirect] pid=27196 52306 -> 3.71.85.18:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  connected  growtechcentral.com:10000  21s      66B     758B  0.04MB  694ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[conn] pid=27196 proxy=growtechcentral.com:10000 dst=3.71.85.18:10001 started src_port=52306
+[error] pid=27196 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  failed  growtechcentral.com:10000  29s      6.2KB   287B  0.10MB  1646ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[redirect] pid=27196 52310 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=27196 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  failed  growtechcentral.com:10000  40s      2.4KB   241B  0.13MB  1646ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[redirect] pid=27196 53986 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=27196 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 27196  failed  growtechcentral.com:10000  57s      1.3KB   208B  0.15MB  1646ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.15MB
+[conn] pid=27196 ended after 39s down=101.8KB up=7.0KB first_down=1.65s first_up=0.00s reason=game_closed
+[conn] pid=27196 ended after 53s down=6.5KB up=3.7KB first_down=0.55s first_up=0.00s reason=game_closed
+[conn] pid=27196 ended after 51s down=4.9KB up=5.9KB first_down=0.51s first_up=0.00s reason=game_closed
+[conn] pid=27196 ended after 51s down=4.9KB up=908B first_down=0.52s first_up=0.00s reason=game_closed

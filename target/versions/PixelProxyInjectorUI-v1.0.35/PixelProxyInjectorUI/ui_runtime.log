@@ -1,0 +1,303 @@
+[ready] UI worker starting
+[ready] all system ready
+[route] auto-assigned PixelWorlds.exe pid=27272 -> proxy-1
+[game] detected PixelWorlds.exe pid=27272 route=proxy-1
+[summary] pid    status    proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  --------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 27272  assigned  172.98.168.142.proxy.kyystore.net:1337  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[redirect] pid=27272 61366 -> 3.65.7.119:10001 via 192.168.100.98:15001
+[redirect] pid=27272 61332 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=27272 61364 -> 175.139.142.25:443 via 192.168.100.98:15001
+[warn] pid=27272 61371 IPv6 target 2603:1061:14:165::1:443; bypassed because the upstream proxy may reject IPv6
+[redirect] pid=27272 61324 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=27272 61333 -> 34.120.217.85:443 via 192.168.100.98:15001
+[warn] closed PixelWorlds.exe pid=27272
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[route] auto-assigned PixelWorlds.exe pid=22148 -> proxy-1
+[game] detected PixelWorlds.exe pid=22148 route=proxy-1
+[summary] pid    status    proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  --------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 22148  assigned  172.98.168.142.proxy.kyystore.net:1337  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=22148 61377 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=22148 61385 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=22148 61386 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=22148 61389 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=22148 61391 -> 54.216.10.20:443 via 192.168.100.98:15001
+[redirect] pid=22148 61394 -> 54.216.10.20:443 via 192.168.100.98:15001
+[warn] pid=22148 61399 IPv6 target 2603:1061:14:165::1:443; bypassed because the upstream proxy may reject IPv6
+[track] pid=22148 61402 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=22148 61402 -> 34.149.147.227:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  4s       0B      0B    0.00MB  3281ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.8.90.77:443 started src_port=61377
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=4s down=0B up=357.4KB used=0.00MB latency=3281ms
+[track] pid=22148 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[summary] pid    status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  5s       17.4KB  1.8KB  0.00MB  202ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.120.217.85:443 started src_port=61386
+[track] pid=22148 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[summary] pid    status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  5s       0B      9.9KB  0.01MB  202ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.96.113.148:443 started src_port=61385
+[track] pid=22148 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=5s down=26.7KB up=2.8KB used=0.01MB latency=207ms
+[summary] pid    status     proxy ip                                runtime  down/s  up/s    used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ------  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  5s       26.1KB  11.7KB  0.02MB  207ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=54.216.10.20:443 started src_port=61391
+[track] pid=22148 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=54.216.10.20:443 started src_port=61394
+[track] pid=22148 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=6s down=17.8KB up=8.1KB used=0.03MB latency=210ms
+[summary] pid    status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  6s       12.6KB  3.9KB  0.04MB  210ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=61402
+[track] pid=22148 tls-clienthello dst=34.149.147.227:443 sni=pw-auth.pw.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=6s down=4.8KB up=4.5KB used=0.04MB latency=210ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=7s down=7.4KB up=724B used=0.04MB latency=196ms
+[redirect] pid=22148 61411 -> 3.65.7.119:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 22148  connected  172.98.168.142.proxy.kyystore.net:1337  10s      1.7KB   220B  0.04MB  196ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[conn] pid=22148 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=3.65.7.119:10001 started src_port=61411
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=10s down=172B up=46B used=0.04MB latency=196ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=11s down=9.0KB up=2.8KB used=0.05MB latency=208ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=12s down=380B up=283B used=0.05MB latency=208ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=12s down=316B up=255B used=0.05MB latency=208ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=13s down=259B up=349B used=0.05MB latency=208ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=13s down=290B up=152B used=0.05MB latency=208ms
+[live] pid=22148 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=14s down=264B up=311B used=0.05MB latency=208ms
+[error] pid=22148 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 22148  failed  172.98.168.142.proxy.kyystore.net:1337  14s      1.4KB   611B  0.05MB  208ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[redirect] pid=22148 61421 -> 175.139.142.25:443 via 192.168.100.98:15001
+[live] pid=22148 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=15s down=286B up=150B used=0.05MB latency=208ms
+[live] pid=22148 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=15s down=332B up=2.3KB used=0.05MB latency=208ms
+[live] pid=22148 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=16s down=301B up=217B used=0.05MB latency=208ms
+[live] pid=22148 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=16s down=75B up=112B used=0.05MB latency=208ms
+[conn] pid=22148 ended after 6s down=6.0KB up=2.7KB first_down=0.21s first_up=0.00s reason=game_closed
+[live] pid=22148 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=18s down=63B up=912B used=0.05MB latency=208ms
+[conn] pid=22148 ended after 13s down=6.4KB up=2.4KB first_down=0.20s first_up=0.00s reason=game_closed
+[conn] pid=22148 ended after 12s down=4.9KB up=5.3KB first_down=0.21s first_up=0.00s reason=game_closed
+[conn] pid=22148 ended after 11s down=6.3KB up=1021B first_down=0.20s first_up=0.00s reason=game_closed
+[conn] pid=22148 ended after 12s down=4.9KB up=908B first_down=0.21s first_up=0.00s reason=game_closed
+[conn] pid=22148 ended after 13s down=6.5KB up=2.4KB first_down=0.21s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[conn] pid=22148 ended after 13s down=5.0KB up=945B first_down=0.21s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[warn] closed PixelWorlds.exe pid=22148
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.05MB
+[route] auto-assigned PixelWorlds.exe pid=4364 -> proxy-1
+[game] detected PixelWorlds.exe pid=4364 route=proxy-1
+[summary] pid   status    proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  --------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  assigned  172.98.168.142.proxy.kyystore.net:1337  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[redirect] pid=4364 61427 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=4364 61435 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=4364 61436 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=4364 61439 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=4364 61441 -> 3.65.7.119:10001 via 192.168.100.98:15001
+[redirect] pid=4364 61445 -> 54.216.10.20:443 via 192.168.100.98:15001
+[redirect] pid=4364 61446 -> 54.216.10.20:443 via 192.168.100.98:15001
+[error] pid=22148 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status    proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  --------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364   assigned  172.98.168.142.proxy.kyystore.net:1337  4s       0B      0B    0.00MB  -      
+[summary] 22148  failed    172.98.168.142.proxy.kyystore.net:1337  -        0B      0B    0.00MB  -      
+[summary] total active instances: 2
+[summary] total bandwidth used: 0.05MB
+[summary] pid   status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  4s       0B      0B    0.00MB  3259ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.8.90.77:443 started src_port=61427
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=4s down=0B up=357.4KB used=0.00MB latency=3259ms
+[track] pid=4364 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[summary] pid   status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  4s       15.8KB  1.6KB  0.00MB  196ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.96.113.148:443 started src_port=61435
+[track] pid=4364 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[summary] pid   status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  4s       0B      6.4KB  0.01MB  196ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.120.217.85:443 started src_port=61436
+[track] pid=4364 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=5s down=24.6KB up=2.5KB used=0.01MB latency=199ms
+[summary] pid   status     proxy ip                                runtime  down/s  up/s   used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  5s       32.9KB  3.0KB  0.02MB  211ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=3.65.7.119:10001 started src_port=61441
+[summary] pid   status     proxy ip                                runtime  down/s  up/s    used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  ------  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  5s       0B      61.3KB  0.02MB  211ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=54.216.10.20:443 started src_port=61445
+[track] pid=4364 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=54.216.10.20:443 started src_port=61446
+[track] pid=4364 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=5s down=21.2KB up=10.7KB used=0.03MB latency=204ms
+[warn] pid=4364 61458 IPv6 target 2404:6800:4001:804::200a:443; bypassed because the upstream proxy may reject IPv6
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=6s down=10.8KB up=5.0KB used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=7s down=1.6KB up=250B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=7s down=282B up=254B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=8s down=285B up=224B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=9s down=283B up=223B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=9s down=279B up=220B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=10s down=1.1KB up=365B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=11s down=293B up=154B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=11s down=260B up=307B used=0.04MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=12s down=293B up=154B used=0.05MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=12s down=1.4KB up=381B used=0.05MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=13s down=152B up=56B used=0.05MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=13s down=73B up=110B used=0.05MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=14s down=85B up=56B used=0.05MB latency=204ms
+[error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid   status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  failed  172.98.168.142.proxy.kyystore.net:1337  14s      2.2KB   772B  0.05MB  204ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[redirect] pid=4364 61462 -> 175.139.142.25:443 via 192.168.100.98:15001
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=15s down=56B up=2.1KB used=0.05MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=15s down=294B up=185B used=0.05MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=16s down=76B up=76B used=0.05MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=16s down=175B up=147B used=0.05MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=17s down=26.2KB up=440B used=0.06MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=18s down=198B up=490B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=18s down=85B up=56B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=19s down=144B up=396B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=20s down=176B up=645B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=20s down=161B up=807B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=21s down=182B up=333B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=21s down=161B up=824B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=22s down=180B up=434B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=23s down=164B up=788B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=23s down=219B up=479B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=24s down=176B up=598B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=25s down=174B up=558B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=25s down=158B up=904B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=26s down=181B up=415B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=27s down=173B up=508B used=0.07MB latency=204ms
+[error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid   status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  failed  172.98.168.142.proxy.kyystore.net:1337  27s      1.4KB   565B  0.07MB  204ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=27s down=176B up=519B used=0.07MB latency=204ms
+[redirect] pid=4364 61466 -> 175.139.142.25:443 via 192.168.100.98:15001
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=28s down=113B up=290B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=28s down=2.4KB up=1.3KB used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=29s down=182B up=292B used=0.07MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=30s down=2.3KB up=1021B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=31s down=174B up=352B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=31s down=273B up=289B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=32s down=160B up=89B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=32s down=236B up=291B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=33s down=113B up=113B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=34s down=149B up=129B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=34s down=81B up=81B used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=35s down=57B up=2.0KB used=0.08MB latency=204ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=36s down=262B up=141B used=0.08MB latency=204ms
+[conn] pid=4364 ended after 31s down=30.2KB up=11.9KB first_down=0.21s first_up=0.00s reason=game_closed
+[redirect] pid=4364 61469 -> 54.93.69.119:10001 via 192.168.100.98:15001
+[summary] pid   status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  connected  172.98.168.142.proxy.kyystore.net:1337  39s      356B    348B  0.08MB  204ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[conn] pid=4364 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=54.93.69.119:10001 started src_port=61469
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=39s down=66B up=82B used=0.08MB latency=204ms
+[live] pid=4364 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=40s down=9.1KB up=2.9KB used=0.09MB latency=210ms
+[error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid   status  proxy ip                                runtime  down/s  up/s   used    latency
+[summary] ----  ------  --------------------------------------  -------  ------  -----  ------  -------
+[summary] 4364  failed  172.98.168.142.proxy.kyystore.net:1337  40s      5.2KB   1.8KB  0.09MB  210ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.14MB
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=41s down=4.3KB up=450B used=0.09MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=41s down=31.0KB up=231B used=0.11MB latency=210ms
+[redirect] pid=4364 52723 -> 175.139.142.25:443 via 192.168.100.98:15001
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=42s down=29.0KB up=489B used=0.12MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=42s down=10.1KB up=129B used=0.13MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=43s down=6.0KB up=357B used=0.13MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=44s down=11.0KB up=591B used=0.14MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=44s down=7.6KB up=794B used=0.14MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=45s down=7.2KB up=638B used=0.15MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=45s down=7.0KB up=530B used=0.15MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=46s down=8.1KB up=443B used=0.16MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=47s down=7.8KB up=309B used=0.16MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=47s down=6.3KB up=131B used=0.17MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=48s down=10.6KB up=217B used=0.17MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=48s down=11.0KB up=131B used=0.18MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=49s down=9.2KB up=130B used=0.19MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=50s down=11.3KB up=294B used=0.19MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=50s down=8.8KB up=131B used=0.20MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=51s down=11.3KB up=184B used=0.21MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=52s down=9.3KB up=277B used=0.21MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=52s down=10.7KB up=653B used=0.22MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=53s down=9.3KB up=532B used=0.22MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=53s down=9.9KB up=410B used=0.23MB latency=210ms
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=54s down=5.9KB up=136B used=0.23MB latency=210ms
+[error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid   status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] ----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 4364  failed  172.98.168.142.proxy.kyystore.net:1337  54s      10.5KB  361B  0.23MB  210ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.29MB
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=55s down=179B up=230B used=0.23MB latency=210ms
+[conn] pid=4364 ended after 15s down=152.2KB up=6.6KB first_down=0.21s first_up=0.00s reason=game_closed
+[live] pid=4364 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=56s down=63B up=1.4KB used=0.24MB latency=210ms
+[conn] pid=4364 ended after 51s down=6.5KB up=3.7KB first_down=0.20s first_up=0.00s reason=game_closed[conn] pid=4364 ended after 51s down=4.9KB up=5.5KB first_down=0.20s first_up=0.00s reason=game_closed
+
+[conn] pid=4364 ended after 51s down=4.9KB up=908B first_down=0.21s first_up=0.00s reason=game_closed
+[conn] pid=4364 ended after 52s down=6.5KB up=2.4KB first_down=0.20s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[conn] pid=4364 ended after 52s down=5.0KB up=945B first_down=0.20s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[warn] closed PixelWorlds.exe pid=4364
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.29MB

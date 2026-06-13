@@ -1,0 +1,544 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[redirect] pid=23092 65084 -> 162.159.133.234:443 via 10.13.1.33:15001
+[redirect] pid=14292 59642 -> 162.159.136.234:443 via 10.13.1.33:15001
+[redirect] pid=6156 50764 -> 20.205.243.168:443 via 10.13.1.33:15001
+[route] auto-assigned Code.exe pid=6156 -> proxy-1
+[game] detected Code.exe pid=6156 route=proxy-1
+[summary] pid   status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] ----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=29388 50762 -> 172.64.155.209:443 via 10.13.1.33:15001
+[summary] pid   status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] ----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156  connected  growtechcentral.com:10000  1s       0B      0B    0.00MB  1356ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=6156 proxy=growtechcentral.com:10000 dst=20.205.243.168:443 started src_port=50764
+[redirect] pid=21180 50766 -> 20.205.243.168:443 via 10.13.1.33:15001
+[route] auto-assigned Code.exe pid=21180 -> proxy-1
+[game] detected Code.exe pid=21180 route=proxy-1
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  1s       0B      1.8KB  0.00MB  1356ms 
+[summary] 21180  assigned   growtechcentral.com:10000  0s       0B      0B     0.00MB  -      
+[summary] total active instances: 2
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  2s       2.5KB   922B  0.00MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  1s       0B      0B    0.00MB  1356ms 
+[summary] total active instances: 2
+[summary] total bandwidth used: 0.00MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=20.205.243.168:443 started src_port=50766
+[redirect] pid=7900 50760 -> 216.239.38.223:443 via 10.13.1.33:15001
+[conn] pid=6156 ended after 1s down=4.6KB up=1.6KB first_down=0.77s first_up=0.00s reason=proxy_closed
+[redirect] pid=28812 60622 -> 104.18.32.47:443 via 10.13.1.33:15001
+[conn] pid=21180 ended after 1s down=4.7KB up=1.6KB first_down=0.75s first_up=0.00s reason=game_closed
+[redirect] pid=21180 50768 -> 172.64.155.209:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  7s       357B    0B    0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  5s       1.0KB   352B  0.01MB  747ms  
+[summary] total active instances: 2
+[summary] total bandwidth used: 0.01MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=50768
+[redirect] pid=28812 64047 -> 104.18.32.47:443 via 10.13.1.33:15001
+[redirect] pid=29388 50770 -> 172.64.155.209:443 via 10.13.1.33:15001
+[route] auto-assigned Code.exe pid=29388 -> proxy-1
+[game] detected Code.exe pid=29388 route=proxy-1
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  9s       0B      0B     0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  8s       2.0KB   1.4KB  0.01MB  442ms  
+[summary] 29388  assigned   growtechcentral.com:10000  0s       0B      0B     0.00MB  -      
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.02MB
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  10s      0B      0B    0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  9s       0B      0B    0.01MB  442ms  
+[summary] 29388  connected  growtechcentral.com:10000  1s       0B      0B    0.00MB  1356ms 
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.02MB
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=50770
+[redirect] pid=29388 50772 -> 172.64.155.209:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 1s down=13.1KB up=4.2KB first_down=0.44s first_up=0.00s reason=proxy_closed
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=50772
+[redirect] pid=14292 49315 -> 172.217.25.46:443 via 10.13.1.33:15001
+[redirect] pid=15028 65275 -> 150.171.110.98:443 via 10.13.1.33:15001
+[conn] pid=21180 ended after 8s down=6.5KB up=5.5KB first_down=0.44s first_up=0.00s reason=game_closed
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 64373 -> 150.171.110.98:443 via 10.13.1.33:15001
+[redirect] pid=4240 64374 -> 172.217.25.227:80 via 10.13.1.33:15001
+[redirect] pid=15028 54077 -> 13.107.5.93:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 54078 -> 172.217.25.227:80 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 57311 -> 13.107.5.93:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 5s down=4.8KB up=2.5KB first_down=0.46s first_up=0.00s reason=game_closed
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 57312 -> 172.217.25.227:80 via 10.13.1.33:15001
+[redirect] pid=7900 51704 -> 216.239.38.223:443 via 10.13.1.33:15001
+[redirect] pid=14292 58032 -> 172.217.25.131:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 51705 -> 199.232.210.172:80 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 61226 -> 216.239.38.223:443 via 10.13.1.33:15001
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 61227 -> 162.159.142.9:80 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 57484 -> 150.171.110.98:443 via 10.13.1.33:15001
+[redirect] pid=15028 52432 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=29388 52434 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=29388 52435 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 52438 -> 199.232.210.172:80 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 61250 -> 150.171.110.98:443 via 10.13.1.33:15001
+[redirect] pid=21180 61251 -> 169.254.169.254:80 via 10.13.1.33:15001
+[redirect] pid=21180 61253 -> 13.107.5.93:443 via 10.13.1.33:15001
+[redirect] pid=21180 61255 -> 13.107.5.93:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 51471 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=21180 51472 -> 13.107.5.93:443 via 10.13.1.33:15001
+[redirect] pid=7900 54003 -> 216.239.38.223:443 via 10.13.1.33:15001
+[redirect] pid=21180 54004 -> 13.107.5.93:443 via 10.13.1.33:15001
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=4240 54006 -> 199.232.210.172:80 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=52434
+
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  22s      0B      0B    0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  21s      162B    206B  0.02MB  442ms  
+[summary] 29388  connected  growtechcentral.com:10000  13s      1.5KB   555B  0.02MB  455ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.05MB
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=52435
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 60886 -> 216.239.38.223:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[error] pid=21180 via growtechcentral.com:10000 failed: SOCKS5 connect failed: connection not allowed by ruleset (reply code 2)[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+
+[summary] 6156   connected  growtechcentral.com:10000  23s      0B      0B     0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  22s      0B      0B     0.02MB  442ms  
+[summary] 29388  connected  growtechcentral.com:10000  14s      6.7KB   7.4KB  0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.06MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=13.107.5.93:443 started src_port=61253
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  23s      0B      0B    0.01MB  766ms  
+[summary] 21180  failed     growtechcentral.com:10000  22s      0B      0B    0.02MB  442ms  
+[summary] 29388  connected  growtechcentral.com:10000  14s      0B      0B    0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.06MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=13.107.5.93:443 started src_port=61255
+[redirect] pid=14292 60281 -> 172.217.25.46:443 via 10.13.1.33:15001
+[status] pid=4240 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=13.107.5.93:443 started src_port=51472
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=13.107.5.93:443 started src_port=54004
+[redirect] pid=14292 63361 -> 172.217.25.46:443 via 10.13.1.33:15001
+[redirect] pid=15028 50913 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=21180 50914 -> 169.254.169.254:80 via 10.13.1.33:15001
+[redirect] pid=21180 50915 -> 169.254.169.254:80 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 62810 -> 172.217.25.46:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 53416 -> 172.217.25.46:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 57940 -> 20.44.10.123:443 via 10.13.1.33:15001
+[error] pid=21180 via growtechcentral.com:10000 failed: SOCKS5 connect failed: connection not allowed by ruleset (reply code 2)[error] pid=21180 via growtechcentral.com:10000 failed: SOCKS5 connect failed: connection not allowed by ruleset (reply code 2)
+
+[redirect] pid=21180 57941 -> 20.189.172.32:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 52716 -> 74.125.24.84:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 65295 -> 74.125.24.84:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  26s      0B      0B     0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  25s      13.6KB  2.1KB  0.07MB  511ms  
+[summary] 29388  connected  growtechcentral.com:10000  17s      1.4KB   0B     0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.11MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=20.189.172.32:443 started src_port=57941
+[redirect] pid=15028 52535 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=7900 51507 -> 216.239.38.223:443 via 10.13.1.33:15001
+[redirect] pid=23092 59629 -> 35.186.224.39:443 via 10.13.1.33:15001
+[redirect] pid=21412 59628 -> 104.18.0.181:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 54896 -> 20.44.10.123:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 56797 -> 216.239.38.223:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 5s down=5.1KB up=3.0KB first_down=0.45s first_up=0.00s reason=game_closed
+[conn] pid=21180 ended after 1s down=7.0KB up=1.8KB first_down=0.58s first_up=0.00s reason=game_closed
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=21180 ended after 5s down=9.6KB up=1.4KB first_down=0.51s first_up=0.00s reason=game_closed
+[conn] pid=21180 ended after 5s down=9.7KB up=1.4KB first_down=0.55s first_up=0.00s reason=game_closed
+[conn] pid=21180 ended after 5s down=14.0KB up=2.3KB first_down=0.58s first_up=0.00s reason=game_closed
+[conn] pid=29388 ended after 6s down=4.8KB up=3.0KB first_down=0.50s first_up=0.00s reason=game_closed
+[conn] pid=21180 ended after 5s down=9.6KB up=1.4KB first_down=0.51s first_up=0.00s reason=game_closed
+[redirect] pid=15028 54931 -> 20.44.10.123:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 52700 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=7900 64966 -> 172.217.25.106:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 52073 -> 172.217.25.106:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=21180 52074 -> 20.205.243.168:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  34s      0B      0B    0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  32s      935B    242B  0.07MB  581ms  
+[summary] 29388  connected  growtechcentral.com:10000  24s      0B      0B    0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.12MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=20.205.243.168:443 started src_port=52074
+[redirect] pid=6156 52076 -> 20.205.243.168:443 via 10.13.1.33:15001
+[redirect] pid=29388 52078 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=7900 50806 -> 216.239.38.223:443 via 10.13.1.33:15001
+[redirect] pid=28812 50807 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 60710 -> 216.239.38.223:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  36s      0B      0B    0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  34s      1.9KB   958B  0.08MB  870ms  
+[summary] 29388  connected  growtechcentral.com:10000  26s      0B      0B    0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.12MB
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=52078
+[redirect] pid=29388 60711 -> 172.64.155.209:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  36s      0B      0B     0.01MB  766ms  
+[summary] 21180  connected  growtechcentral.com:10000  34s      0B      0B     0.08MB  870ms  
+[summary] 29388  connected  growtechcentral.com:10000  26s      0B      3.2KB  0.04MB  496ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.13MB
+[conn] pid=6156 proxy=growtechcentral.com:10000 dst=20.205.243.168:443 started src_port=52076
+[conn] pid=21180 ended after 2s down=4.7KB up=1.6KB first_down=0.87s first_up=0.00s reason=proxy_closed
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 60713 -> 172.64.155.209:443 via 10.13.1.33:15001
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=60711
+[redirect] pid=10816 60714 -> 216.239.38.223:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 60715 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=10816 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=10816 60716 -> 216.239.38.223:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=29388 ended after 3s down=13.0KB up=4.1KB first_down=0.41s first_up=0.00s reason=proxy_closed
+[status] pid=10816 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=29388 60717 -> 172.64.155.209:443 via 10.13.1.33:15001
+[conn] pid=6156 ended after 5s down=4.6KB up=1.6KB first_down=0.76s first_up=0.00s reason=proxy_closed
+[redirect] pid=6156 60719 -> 20.205.243.168:443 via 10.13.1.33:15001
+[redirect] pid=23092 60721 -> 162.159.137.232:443 via 10.13.1.33:15001
+[redirect] pid=7900 52260 -> 172.217.25.106:443 via 10.13.1.33:15001
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=60717
+[redirect] pid=28812 52261 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 52262 -> 162.159.137.232:443 via 10.13.1.33:15001
+[redirect] pid=15028 62500 -> 20.44.10.123:443 via 10.13.1.33:15001
+[conn] pid=6156 proxy=growtechcentral.com:10000 dst=20.205.243.168:443 started src_port=60719
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 60052 -> 172.217.25.106:443 via 10.13.1.33:15001
+[redirect] pid=23092 60053 -> 162.159.134.234:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 53121 -> 20.44.10.123:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 53122 -> 162.159.134.234:443 via 10.13.1.33:15001
+[redirect] pid=26844 59656 -> 23.41.37.220:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 8s down=5.1KB up=3.0KB first_down=0.41s first_up=0.00s reason=game_closed
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=6156 ended after 2s down=4.6KB up=4.7KB first_down=0.91s first_up=0.00s reason=proxy_closed
+[redirect] pid=23092 53123 -> 162.159.137.232:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 53124 -> 162.159.128.233:443 via 10.13.1.33:15001
+[redirect] pid=28812 53125 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 53126 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=7900 53710 -> 216.239.38.223:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 5s down=4.8KB up=2.4KB first_down=0.45s first_up=0.00s reason=game_closed
+[redirect] pid=15028 58934 -> 20.44.10.123:443 via 10.13.1.33:15001
+[redirect] pid=23092 58935 -> 35.186.224.24:443 via 10.13.1.33:15001
+[redirect] pid=23092 58936 -> 162.159.135.234:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 50140 -> 216.239.38.223:443 via 10.13.1.33:15001
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=15028 62890 -> 20.44.10.123:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 62891 -> 35.186.224.24:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 62892 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=23092 62893 -> 162.159.135.234:443 via 10.13.1.33:15001
+[redirect] pid=23092 62894 -> 162.159.128.233:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=15028 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 62895 -> 35.186.224.39:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 62896 -> 162.159.135.232:443 via 10.13.1.33:15001
+[redirect] pid=21412 62897 -> 104.18.0.181:443 via 10.13.1.33:15001
+[redirect] pid=28812 62899 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 62900 -> 35.186.224.39:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=21412 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 62901 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=14292 59603 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 59604 -> 35.186.224.24:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 61237 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 61238 -> 35.186.224.24:443 via 10.13.1.33:15001
+[redirect] pid=28812 61239 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 57784 -> 172.217.25.131:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 57785 -> 35.186.224.39:443 via 10.13.1.33:15001
+[redirect] pid=23092 57786 -> 162.159.135.232:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 55286 -> 172.217.25.131:443 via 10.13.1.33:15001
+[redirect] pid=28812 55287 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 55288 -> 35.186.224.39:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 55289 -> 162.159.135.232:443 via 10.13.1.33:15001
+[redirect] pid=23092 55290 -> 162.159.130.234:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 55291 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 55292 -> 162.159.130.234:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 55293 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=14292 56536 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 60155 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=7900 51934 -> 172.217.25.106:443 via 10.13.1.33:15001
+[redirect] pid=28812 51935 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=14292 64651 -> 162.159.136.234:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 64739 -> 172.217.25.3:443 via 10.13.1.33:15001
+[redirect] pid=23092 64740 -> 35.186.224.24:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=7900 62065 -> 172.217.25.106:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 62066 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 55409 -> 162.159.136.234:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 53564 -> 172.217.25.3:443 via 10.13.1.33:15001
+[redirect] pid=29388 53565 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=29388 53567 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 53569 -> 35.186.224.24:443 via 10.13.1.33:15001
+[status] pid=7900 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=28812 53570 -> 172.64.155.209:443 via 10.13.1.33:15001
+[redirect] pid=23092 53571 -> 35.186.224.39:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=53567
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+
+[summary] 6156   connected  growtechcentral.com:10000  1m05s    327B    221B  0.02MB  906ms  
+[summary] 21180  connected  growtechcentral.com:10000  1m03s    53B     0B    0.08MB  870ms  
+[summary] 29388  connected  growtechcentral.com:10000  55s      808B    318B  0.07MB  449ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.17MB
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=53565
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 53572 -> 35.186.224.39:443 via 10.13.1.33:15001
+[redirect] pid=21412 53573 -> 104.18.0.181:443 via 10.13.1.33:15001
+[redirect] pid=14292 64150 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 56388 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=29388 56389 -> 20.189.173.9:443 via 10.13.1.33:15001
+[redirect] pid=14292 56308 -> 142.251.156.119:443 via 10.13.1.33:15001
+[redirect] pid=14292 50292 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 56303 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 50477 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 49248 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 61403 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=28812 61404 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=23092 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=21412 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 57366 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 56774 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=14292 56900 -> 142.251.156.119:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 51560 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 61446 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 53131 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 63296 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 65468 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  1m07s    0B      0B     0.02MB  906ms  
+[summary] 21180  connected  growtechcentral.com:10000  1m06s    0B      0B     0.08MB  870ms  
+[summary] 29388  connected  growtechcentral.com:10000  58s      3.9KB   2.4KB  0.09MB  419ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.19MB
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=20.189.173.9:443 started src_port=56389
+[redirect] pid=28812 65469 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 64338 -> 142.251.173.94:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 56186 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 60345 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 56109 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 51928 -> 104.21.17.127:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 57416 -> 142.251.173.94:443 via 10.13.1.33:15001
+[redirect] pid=21180 57417 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 52433 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 56385 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=14292 62068 -> 142.251.156.119:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 60355 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 59171 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 57937 -> 104.21.17.127:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 2s down=7.1KB up=18.6KB first_down=0.66s first_up=0.00s reason=proxy_closed
+[redirect] pid=14292 62071 -> 210.19.224.207:443 via 10.13.1.33:15001
+[redirect] pid=14292 56017 -> 172.217.25.238:443 via 10.13.1.33:15001
+[conn] pid=29388 ended after 4s down=4.8KB up=3.0KB first_down=0.42s first_up=0.00s reason=game_closed
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=29388 ended after 5s down=5.1KB up=3.0KB first_down=0.42s first_up=0.00s reason=game_closed
+[redirect] pid=25412 56018 -> 203.121.99.193:80 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 58778 -> 172.217.25.131:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 55569 -> 216.239.32.223:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 53814 -> 142.251.156.119:443 via 10.13.1.33:15001
+[redirect] pid=29388 53816 -> 20.189.173.9:443 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 6156   connected  growtechcentral.com:10000  1m11s    0B      0B     0.02MB  906ms  
+[summary] 21180  connected  growtechcentral.com:10000  1m09s    0B      0B     0.08MB  870ms  
+[summary] 29388  connected  growtechcentral.com:10000  1m01s    2.2KB   5.8KB  0.11MB  662ms  
+[summary] total active instances: 3
+[summary] total bandwidth used: 0.21MB
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=57417
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 56010 -> 35.190.80.1:443 via 10.13.1.33:15001
+[redirect] pid=14292 64318 -> 67.43.236.2:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 59329 -> 210.19.224.207:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 53840 -> 172.217.25.238:443 via 10.13.1.33:15001
+[status] pid=25412 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 61973 -> 162.159.136.234:443 via 10.13.1.33:15001
+[redirect] pid=28812 61974 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 60393 -> 172.217.25.131:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 57124 -> 35.190.80.1:443 via 10.13.1.33:15001
+[conn] pid=29388 proxy=growtechcentral.com:10000 dst=20.189.173.9:443 started src_port=53816
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 51231 -> 67.43.236.2:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 61297 -> 210.19.224.207:443 via 10.13.1.33:15001
+[redirect] pid=21180 61298 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 60112 -> 162.159.136.234:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 64624 -> 210.19.224.207:443 via 10.13.1.33:15001
+[redirect] pid=14292 50684 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=14292 51778 -> 142.251.156.119:443 via 10.13.1.33:15001
+[redirect] pid=14292 51114 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 53413 -> 216.239.32.116:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=21180 proxy=growtechcentral.com:10000 dst=172.64.155.209:443 started src_port=61298
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[conn] pid=29388 ended after 2s down=7.1KB up=12.8KB first_down=0.57s first_up=0.00s reason=proxy_closed
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 56055 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=14292 63743 -> 142.251.156.119:443 via 10.13.1.33:15001
+[redirect] pid=14292 55317 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=28812 55318 -> 172.64.155.209:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 61871 -> 216.239.32.116:443 via 10.13.1.33:15001
+[redirect] pid=10996 62176 -> 167.82.48.223:443 via 10.13.1.33:15001
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+
+
+[redirect] pid=14292 51155 -> 210.19.224.207:443 via 10.13.1.33:15001
+[status] pid=28812 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=23092 51156 -> 162.159.133.234:443 via 10.13.1.33:15001
+[conn] pid=21180 ended after 5s down=4.5KB up=3.1KB first_down=0.42s first_up=0.00s reason=game_closed
+[status] pid=14292 -> bypassed via unknown -> failed (PID route was not ready; dropped connection instead of using a fallback proxy)
+[redirect] pid=14292 63073 -> 210.19.224.207:443 via 10.13.1.33:15001
+[redirect] pid=14292 61387 -> 216.239.32.223:443 via 10.13.1.33:15001
+[redirect] pid=14292 52970 -> 142.251.156.119:443 via 10.13.1.33:15001
+[redirect] pid=14292 60836 -> 172.217.25.238:443 via 10.13.1.33:15001
+[redirect] pid=28812 60837 -> 172.64.155.209:443 via 10.13.1.33:15001

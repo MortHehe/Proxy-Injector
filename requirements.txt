@@ -1,0 +1,4 @@
+psutil>=5.9.8
+pydivert>=2.1.0
+colorama>=0.4.6
+pyinstaller>=6.0

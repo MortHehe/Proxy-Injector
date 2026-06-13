@@ -1,0 +1,21 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=6416 -> proxy-1
+[game] detected PixelWorlds.exe pid=6416 route=proxy-1
+[summary] pid   status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 6416  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[warn] closed PixelWorlds.exe pid=6416
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB

@@ -1,0 +1,8 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on

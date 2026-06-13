@@ -1,0 +1,71 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=32340 -> proxy-1
+[game] detected PixelWorlds.exe pid=32340 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32340  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=32340 55836 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32340  connected  growtechcentral.com:10000  8s       0B      0B    0.00MB  1479ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=32340 proxy=growtechcentral.com:10000 dst=63.176.210.142:10001 started src_port=55836
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=8s down=0B up=120.1KB used=0.00MB latency=1479ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=9s down=30B up=0B used=0.00MB latency=1479ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=10s down=5.8KB up=1.7KB used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=11s down=86B up=68B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=12s down=87B up=68B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=13s down=193B up=201B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=13s down=78B up=61B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=14s down=113B up=95B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=15s down=56B up=44B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=16s down=72B up=57B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=17s down=90B up=71B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=18s down=88B up=99B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=19s down=74B up=58B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=19s down=73B up=57B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=20s down=150B up=142B used=0.01MB latency=1650ms
+[conn] pid=32340 ended after 12s down=5.6KB up=2.3KB first_down=1.65s first_up=0.00s reason=game_closed
+[redirect] pid=32340 55845 -> 3.70.217.4:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32340  connected  growtechcentral.com:10000  22s      410B    167B  0.01MB  1650ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=32340 proxy=growtechcentral.com:10000 dst=3.70.217.4:10001 started src_port=55845
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=22s down=0B up=92B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=22s down=62B up=0B used=0.01MB latency=1650ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=24s down=3.2KB up=967B used=0.01MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=25s down=189B up=169B used=0.01MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=25s down=86B up=68B used=0.01MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=28s down=4.9KB up=97B used=0.03MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=29s down=2.8KB up=79B used=0.03MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=30s down=8.4KB up=287B used=0.04MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=31s down=17.2KB up=110B used=0.05MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=31s down=1.8KB up=0B used=0.05MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=32s down=2.8KB up=156B used=0.05MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=34s down=9.2KB up=78B used=0.06MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=35s down=1.4KB up=238B used=0.07MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=35s down=6.6KB up=358B used=0.07MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=36s down=6.0KB up=245B used=0.08MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=37s down=1.9KB up=357B used=0.08MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=38s down=4.8KB up=263B used=0.08MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=39s down=3.3KB up=133B used=0.09MB latency=788ms
+[live] pid=32340 status=connected proxy=growtechcentral.com:10000 runtime=40s down=6.9KB up=225B used=0.09MB latency=788ms
+[conn] pid=32340 ended after 19s down=83.1KB up=4.2KB first_down=0.79s first_up=0.00s reason=game_closed
+[warn] closed PixelWorlds.exe pid=32340
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.09MB

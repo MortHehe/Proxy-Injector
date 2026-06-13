@@ -1,0 +1,378 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[redirect] pid=31812 58275 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=31812 -> proxy-1
+[game] detected curl.exe pid=31812 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 31812  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 31812  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  1391ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=31812 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58275
+[conn] pid=31812 ended after 1s down=229B up=216B first_down=1.30s first_up=0.00s reason=game_closed
+[redirect] pid=29824 58289 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=29824 -> proxy-1
+[game] detected curl.exe pid=29824 route=proxy-1
+[warn] closed curl.exe pid=31812
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 29824  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 29824  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  1224ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=29824 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58289
+[conn] pid=29824 ended after 1s down=229B up=216B first_down=1.27s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=29824
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=32088 58319 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=32088 -> proxy-1
+[game] detected curl.exe pid=32088 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 32088  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 32088  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  879ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=32088 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58319
+[conn] pid=32088 ended after 2s down=9.7KB up=1.3KB first_down=0.75s first_up=0.00s reason=game_closed
+[redirect] pid=32420 58338 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=32420 -> proxy-1
+[game] detected curl.exe pid=32420 route=proxy-1
+[warn] closed curl.exe pid=32088
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 32420  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 32420  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  888ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=32420 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58338
+[conn] pid=32420 ended after 2s down=5.5KB up=1.2KB first_down=0.74s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=32420
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.02MB
+[redirect] pid=19364 58360 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=19364 -> proxy-1
+[game] detected curl.exe pid=19364 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 19364  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 19364  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  927ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[conn] pid=19364 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58360
+[conn] pid=19364 ended after 2s down=9.8KB up=1.3KB first_down=0.75s first_up=0.00s reason=game_closed
+[redirect] pid=30668 63329 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30668 -> proxy-1
+[game] detected curl.exe pid=30668 route=proxy-1
+[warn] closed curl.exe pid=19364
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30668  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.03MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30668  connected  45.198.69.206:2340  1s       0B      0B    0.00MB  2270ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.03MB
+[conn] pid=30668 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=63329
+[conn] pid=30668 ended after 2s down=5.5KB up=1.2KB first_down=0.82s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=30668
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.04MB
+[redirect] pid=30432 63354 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30432 -> proxy-1
+[game] detected curl.exe pid=30432 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30432  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30432  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  903ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[conn] pid=30432 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=63354
+[conn] pid=30432 ended after 2s down=9.8KB up=1.3KB first_down=0.72s first_up=0.00s reason=game_closed
+[redirect] pid=29712 63374 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=29712 -> proxy-1
+[game] detected curl.exe pid=29712 route=proxy-1
+[warn] closed curl.exe pid=30432
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 29712  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 29712  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  968ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[conn] pid=29712 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=63374
+[conn] pid=29712 ended after 2s down=5.5KB up=1.2KB first_down=0.73s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=29712
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.05MB
+[redirect] pid=3500 63396 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=3500 -> proxy-1
+[game] detected curl.exe pid=3500 route=proxy-1
+[summary] pid   status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 3500  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 3500  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  960ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[conn] pid=3500 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=63396
+[conn] pid=3500 ended after 2s down=9.8KB up=1.3KB first_down=0.72s first_up=0.00s reason=game_closed
+[redirect] pid=6100 58458 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=6100 -> proxy-1
+[game] detected curl.exe pid=6100 route=proxy-1
+[warn] closed curl.exe pid=3500
+[summary] pid   status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 6100  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 6100  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  957ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[conn] pid=6100 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58458
+[conn] pid=6100 ended after 1s down=5.5KB up=1.2KB first_down=0.54s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=6100
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.07MB
+[redirect] pid=16108 58484 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=16108 -> proxy-1
+[game] detected curl.exe pid=16108 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 16108  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 16108  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  982ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=16108 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58484
+[conn] pid=16108 ended after 1s down=9.8KB up=1.3KB first_down=0.58s first_up=0.00s reason=game_closed
+[redirect] pid=30516 58494 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30516 -> proxy-1
+[game] detected curl.exe pid=30516 route=proxy-1
+[warn] closed curl.exe pid=16108
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30516  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.08MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30516  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  997ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.08MB
+[conn] pid=30516 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=58494
+[conn] pid=30516 ended after 2s down=5.5KB up=1.2KB first_down=0.72s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=30516
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.09MB
+[redirect] pid=5560 49691 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=5560 -> proxy-1
+[game] detected curl.exe pid=5560 route=proxy-1
+[summary] pid   status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 5560  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.09MB
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] ----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 5560  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  947ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.09MB
+[conn] pid=5560 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49691
+[conn] pid=5560 ended after 2s down=9.7KB up=1.3KB first_down=0.56s first_up=0.00s reason=game_closed
+[redirect] pid=30168 49707 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30168 -> proxy-1
+[game] detected curl.exe pid=30168 route=proxy-1
+[warn] closed curl.exe pid=5560
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30168  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30168  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  1196ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[conn] pid=30168 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49707
+[conn] pid=30168 ended after 2s down=5.5KB up=1.2KB first_down=0.72s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=30168
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.10MB
+[redirect] pid=28148 49746 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=28148 -> proxy-1
+[game] detected curl.exe pid=28148 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 28148  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 28148  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  1155ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.10MB
+[conn] pid=28148 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49746
+[conn] pid=28148 ended after 2s down=9.7KB up=1.3KB first_down=0.73s first_up=0.00s reason=game_closed
+[redirect] pid=26908 49760 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=26908 -> proxy-1
+[game] detected curl.exe pid=26908 route=proxy-1
+[warn] closed curl.exe pid=28148
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 26908  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.12MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 26908  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  882ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.12MB
+[conn] pid=26908 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49760
+[conn] pid=26908 ended after 1s down=5.4KB up=1.2KB first_down=0.55s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=26908
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.12MB
+[redirect] pid=28996 49784 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=28996 -> proxy-1
+[game] detected curl.exe pid=28996 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 28996  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.12MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 28996  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  889ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.12MB
+[conn] pid=28996 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49784
+[conn] pid=28996 ended after 1s down=9.8KB up=1.3KB first_down=0.72s first_up=0.00s reason=game_closed
+[redirect] pid=30048 49798 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30048 -> proxy-1
+[game] detected curl.exe pid=30048 route=proxy-1
+[warn] closed curl.exe pid=28996
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30048  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30048  connected  45.198.69.206:2340  1s       0B      0B    0.00MB  1597ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[conn] pid=30048 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49798
+[conn] pid=30048 ended after 2s down=5.4KB up=1.2KB first_down=0.82s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=30048
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.14MB
+[redirect] pid=30012 49823 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=30012 -> proxy-1
+[game] detected curl.exe pid=30012 route=proxy-1
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 30012  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.14MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 30012  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  902ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.14MB
+[conn] pid=30012 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=49823
+[conn] pid=30012 ended after 1s down=9.8KB up=1.3KB first_down=0.53s first_up=0.00s reason=game_closed
+[redirect] pid=22148 56110 -> 148.251.5.30:10001 via 172.20.10.2:15001
+[route] auto-assigned curl.exe pid=22148 -> proxy-1
+[game] detected curl.exe pid=22148 route=proxy-1
+[warn] closed curl.exe pid=30012
+[summary] pid    status    proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------  -------  ------  ----  ------  -------
+[summary] 22148  assigned  45.198.69.206:2340  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.15MB
+[summary] pid    status     proxy ip            runtime  down/s  up/s  used    latency
+[summary] -----  ---------  ------------------  -------  ------  ----  ------  -------
+[summary] 22148  connected  45.198.69.206:2340  0s       0B      0B    0.00MB  1086ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.15MB
+[conn] pid=22148 proxy=45.198.69.206:2340 dst=148.251.5.30:10001 started src_port=56110
+[conn] pid=22148 ended after 2s down=5.4KB up=1.2KB first_down=0.73s first_up=0.00s reason=game_closed
+[warn] closed curl.exe pid=22148
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.16MB

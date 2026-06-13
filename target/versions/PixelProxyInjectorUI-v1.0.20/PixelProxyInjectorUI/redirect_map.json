@@ -1,0 +1,56 @@
+{
+  "55999": {
+    "pid": 0,
+    "destination_host": "18.156.116.176",
+    "destination_port": 10001,
+    "updated_at": 1779857059.800004
+  },
+  "56015": {
+    "pid": 23764,
+    "destination_host": "34.8.90.77",
+    "destination_port": 443,
+    "updated_at": 1779857064.463761
+  },
+  "56024": {
+    "pid": 23764,
+    "destination_host": "34.96.113.148",
+    "destination_port": 443,
+    "updated_at": 1779857064.8387585
+  },
+  "56027": {
+    "pid": 23764,
+    "destination_host": "34.120.217.85",
+    "destination_port": 443,
+    "updated_at": 1779857064.8621242
+  },
+  "56030": {
+    "pid": 23764,
+    "destination_host": "18.156.116.176",
+    "destination_port": 10001,
+    "updated_at": 1779857065.3287637
+  },
+  "56034": {
+    "pid": 23764,
+    "destination_host": "54.78.149.171",
+    "destination_port": 443,
+    "updated_at": 1779857065.436148
+  },
+  "56035": {
+    "pid": 23764,
+    "destination_host": "54.78.149.171",
+    "destination_port": 443,
+    "updated_at": 1779857065.4490511
+  },
+  "56044": {
+    "pid": 23764,
+    "destination_host": "162.159.135.232",
+    "destination_port": 443,
+    "updated_at": 1779857072.593858
+  },
+  "56048": {
+    "pid": 23764,
+    "destination_host": "175.139.142.25",
+    "destination_port": 443,
+    "updated_at": 1779857075.5122051
+  }
+}

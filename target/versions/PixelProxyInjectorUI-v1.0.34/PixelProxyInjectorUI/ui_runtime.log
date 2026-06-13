@@ -1,0 +1,260 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[route] auto-assigned PixelWorlds.exe pid=16044 -> proxy-1
+[game] detected PixelWorlds.exe pid=16044 route=proxy-1
+[summary] pid    status    proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  --------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  assigned  172.98.168.142.proxy.kyystore.net:1337  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=16044 51978 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=16044 51988 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=16044 51990 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=16044 51992 -> 34.120.217.85:443 via 192.168.100.98:15001
+[track] pid=16044 51996 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 51996 -> 34.149.147.227:443 via 192.168.100.98:15001
+[redirect] pid=16044 51998 -> 34.249.176.123:443 via 192.168.100.98:15001
+[redirect] pid=16044 52001 -> 34.249.176.123:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  5s       0B      0B    0.00MB  3282ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.8.90.77:443 started src_port=51978
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=5s down=0B up=357.4KB used=0.00MB latency=3282ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  5s       0B      212.1KB  0.00MB  3282ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  5s       0B      0B    0.00MB  3221ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.96.113.148:443 started src_port=51988
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  5s       0B      307.3KB  0.00MB  3221ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  5s       0B      0B    0.00MB  3209ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.120.217.85:443 started src_port=51992
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s    used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  5s       0B      95.1KB  0.00MB  3209ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  6s       0B      0B    0.00MB  3247ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=51996
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=6s down=0B up=1.1KB used=0.00MB latency=3247ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  6s       0B      356.4KB  0.00MB  3247ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.249.176.123:443 started src_port=51998
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  6s       0B      0B    0.00MB  3310ms 
+[summary] total active instances: 1
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace[summary] total bandwidth used: 0.00MB
+
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.249.176.123:443 started src_port=52001
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  6s       0B      490.6KB  0.00MB  3310ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=16044 52011 -> 34.249.176.123:443 via 192.168.100.98:15001
+[track] pid=16044 52014 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 52014 -> 34.149.147.227:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.249.176.123:443 started src_port=52011
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=9s down=0B up=295B used=0.00MB latency=3222ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[redirect] pid=16044 52017 -> 34.8.90.77:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=52014
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=10s down=0B up=493B used=0.00MB latency=3211ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[track] pid=16044 52020 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 52020 -> 34.149.147.227:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.8.90.77:443 started src_port=52017
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=13s down=0B up=128B used=0.00MB latency=3287ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  15s      0B      121B  0.00MB  3287ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=16044 52026 -> 175.139.142.25:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=52020
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=15s down=0B up=153B used=0.00MB latency=3217ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[track] pid=16044 61465 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 61465 -> 34.149.147.227:443 via 192.168.100.98:15001
+[redirect] pid=16044 61469 -> 34.8.90.77:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  23s      0B      43B   0.00MB  3229ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=61465
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=23s down=0B up=45B used=0.00MB latency=3229ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s    used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  24s      0B      19.3KB  0.00MB  3229ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  27s      0B      0B    0.00MB  3211ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.8.90.77:443 started src_port=61469
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=27s down=0B up=101B used=0.00MB latency=3211ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s    used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  27s      0B      35.1KB  0.00MB  3211ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  28s      0B      0B    0.00MB  3211ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=16044 61489 -> 175.139.142.25:443 via 192.168.100.98:15001
+[track] pid=16044 61492 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 61492 -> 34.149.147.227:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  35s      0B      0B    0.00MB  3283ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=61492
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=35s down=0B up=45B used=0.00MB latency=3283ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  35s      0B      230.6KB  0.00MB  3283ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[warn] pid=16044 61504 IPv6 target 2600:1901:0:e37d:::443; bypassed because the upstream proxy may reject IPv6
+[redirect] pid=16044 61505 -> 34.160.10.162:443 via 192.168.100.98:15001
+[redirect] pid=16044 61507 -> 3.65.7.119:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  39s      0B      0B    0.00MB  3224ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.160.10.162:443 started src_port=61505
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=39s down=0B up=114B used=0.00MB latency=3224ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  39s      0B      272.6KB  0.00MB  3224ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=16044 61512 -> 34.160.10.162:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  39s      0B      0B    0.00MB  3268ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=3.65.7.119:10001 started src_port=61507
+[track] pid=16044 61514 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 61514 -> 34.149.147.227:443 via 192.168.100.98:15001
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=39s down=134B up=279B used=0.01MB latency=208ms
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=40s down=76B up=114B used=0.01MB latency=208ms
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=40s down=83B up=55B used=0.01MB latency=208ms
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=41s down=112B up=112B used=0.01MB latency=208ms
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=41s down=76B up=114B used=0.01MB latency=208ms
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.160.10.162:443 started src_port=61512
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[redirect] pid=16044 61518 -> 34.160.10.162:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=61514
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=42s down=63B up=1.3KB used=0.01MB latency=208ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  42s      92B     333B  0.01MB  208ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=43s down=107B up=71B used=0.01MB latency=208ms
+[track] pid=16044 61521 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[redirect] pid=16044 61521 -> 34.149.147.227:443 via 192.168.100.98:15001
+[redirect] pid=16044 61523 -> 175.139.142.25:443 via 192.168.100.98:15001
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=44s down=57B up=57B used=0.01MB latency=208ms
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=44s down=82B up=82B used=0.01MB latency=208ms
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=45s down=75B up=113B used=0.01MB latency=208ms
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.160.10.162:443 started src_port=61518
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[redirect] pid=16044 61526 -> 34.160.10.162:443 via 192.168.100.98:15001
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=45s down=117B up=647B used=0.01MB latency=208ms
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=46s down=75B up=75B used=0.01MB latency=208ms
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  46s      80B     168B  0.01MB  208ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.149.147.227:443 started src_port=61521
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  46s      0B      356.4KB  0.01MB  208ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=16044 ended after 7s down=682B up=775B first_down=0.21s first_up=0.00s reason=game_closed
+[redirect] pid=16044 64981 -> 34.96.113.148:443 via 192.168.100.98:15001
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.160.10.162:443 started src_port=61526
+[live] pid=16044 status=failed proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=48s down=17B up=350B used=0.01MB latency=208ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[warn] closed PixelWorlds.exe pid=16044
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.01MB
+[summary] pid    status     proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ---------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  connected  172.98.168.142.proxy.kyystore.net:1337  -        0B      0B    0.00MB  3215ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=16044 proxy=172.98.168.142.proxy.kyystore.net:1337 dst=34.96.113.148:443 started src_port=64981
+[live] pid=16044 status=connected proxy=172.98.168.142.proxy.kyystore.net:1337 runtime=- down=0B up=363.3KB used=0.00MB latency=3215ms
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[summary] pid    status  proxy ip                                runtime  down/s  up/s     used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  -------  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  -        0B      165.4KB  0.00MB  3215ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[summary] pid    status  proxy ip                                runtime  down/s  up/s  used    latency
+[summary] -----  ------  --------------------------------------  -------  ------  ----  ------  -------
+[summary] 16044  failed  172.98.168.142.proxy.kyystore.net:1337  -        0B      0B    0.00MB  3215ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB

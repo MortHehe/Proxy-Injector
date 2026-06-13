@@ -1,0 +1,8 @@
+{
+  "upstreams": [
+    "growtechcentral.com:10000:7725d4000be179e0678c__cr.br:629b3e54a18cf77e"
+  ],
+  "max_pids_per_proxy": 3,
+  "summary_interval_seconds": 1.0,
+  "hide_proxy_in_list": false
+}

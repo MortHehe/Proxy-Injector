@@ -1,0 +1,64 @@
+[2026-06-02 08:51:12] [ready] debug log started
+[2026-06-02 08:51:13] [track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[2026-06-02 08:51:20] [track] pid=22104 50621 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:51:23] [track] pid=22104 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:51:23] [track] pid=22104 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:51:23] [track] pid=22104 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:51:24] [track] pid=22104 tls-clienthello dst=34.149.147.227:443 sni=pw-auth.pw.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:51:24] [track] pid=22104 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:51:24] [track] pid=22104 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:51:29] [warn] pid=22104 59884 IPv6 target 2404:6800:4001:804::200a:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:51:33] [error] pid=22104 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:51:46] [error] pid=22104 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:52:00] [error] pid=22104 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:52:15] [error] pid=22104 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:52:58] [warn] closed PixelWorlds.exe pid=22104
+[2026-06-02 08:52:58] [error] pid=22104 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:53:19] [warn] pid=2788 58982 IPv6 target 2603:1061:14:161::1:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:53:20] [track] pid=2788 58985 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:53:21] [track] pid=2788 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:21] [track] pid=2788 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:22] [track] pid=2788 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:22] [track] pid=2788 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:53:22] [track] pid=2788 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:53:23] [track] pid=2788 tls-clienthello dst=34.149.147.227:443 sni=pw-auth.pw.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:25] [warn] closed PixelWorlds.exe pid=2788
+[2026-06-02 08:53:31] [ready] debug log started
+[2026-06-02 08:53:32] [track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[2026-06-02 08:53:46] [track] pid=27272 61346 login-host=11ef5c.playfabapi.com ip=2603:1061:14:165::1:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:53:48] [track] pid=27272 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:48] [track] pid=27272 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:48] [track] pid=27272 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:53:49] [track] pid=27272 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:53:49] [track] pid=27272 tls-clienthello dst=54.194.215.174:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:53:49] [error] pid=27272 via 172.98.168.142.proxy.kyystore.net:1337 failed: HTTP proxy CONNECT failed: HTTP/1.1 500 Internal Server Error
+[2026-06-02 08:53:53] [track] pid=27272 61359 login-host=11ef5c.playfabapi.com ip=2603:1061:14:165::1:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:53:56] [error] pid=27272 via 172.98.168.142.proxy.kyystore.net:1337 failed: HTTP proxy CONNECT failed: HTTP/1.1 500 Internal Server Error
+[2026-06-02 08:53:58] [error] pid=27272 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:54:05] [track] pid=27272 61371 login-host=11ef5c.playfabapi.com ip=2603:1061:14:165::1:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:54:07] [ready] debug log started
+[2026-06-02 08:54:08] [track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[2026-06-02 08:54:13] [warn] pid=27272 61371 IPv6 target 2603:1061:14:165::1:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:54:14] [warn] closed PixelWorlds.exe pid=27272
+[2026-06-02 08:54:20] [warn] pid=22148 61399 IPv6 target 2603:1061:14:165::1:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:54:20] [track] pid=22148 61402 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:54:22] [track] pid=22148 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:22] [track] pid=22148 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:22] [track] pid=22148 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:23] [track] pid=22148 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:54:23] [track] pid=22148 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:54:23] [track] pid=22148 tls-clienthello dst=34.149.147.227:443 sni=pw-auth.pw.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:32] [error] pid=22148 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:54:37] [warn] closed PixelWorlds.exe pid=22148
+[2026-06-02 08:54:45] [error] pid=22148 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:54:45] [track] pid=4364 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:46] [track] pid=4364 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:46] [track] pid=4364 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-02 08:54:46] [track] pid=4364 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:54:46] [track] pid=4364 tls-clienthello dst=54.216.10.20:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-02 08:54:47] [warn] pid=4364 61458 IPv6 target 2404:6800:4001:804::200a:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:54:55] [error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:55:08] [error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:55:21] [error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:55:35] [error] pid=4364 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:55:39] [warn] closed PixelWorlds.exe pid=4364

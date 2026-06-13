@@ -1,0 +1,14 @@
+{
+  "machine": {
+    "name": "MORTHEHE",
+    "hostname": "morthehe",
+    "user": "meidy",
+    "session": ""
+  },
+  "running": false,
+  "active_instances": 0,
+  "total_bandwidth_bytes": 0,
+  "total_bandwidth_mb": 0.0,
+  "updated_at": 1779695560.305242,
+  "instances": []
+}

@@ -1,0 +1,71 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=8424 -> proxy-1
+[game] detected PixelWorlds.exe pid=8424 route=proxy-1
+[ready] all system ready
+[summary] pid   status    proxy ip            runtime  down/s  up/s  used  
+[summary] ----  --------  ------------------  -------  ------  ----  ------
+[summary] 8424  assigned  107.149.7.88:50002  0s       0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=8424 51916 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[ready] all system ready
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used  
+[summary] ----  ---------  ------------------  -------  ------  ----  ------
+[summary] 8424  connected  107.149.7.88:50002  4s       0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=51916
+[conn] pid=8424 ended after 26s down=6.9KB up=3.9KB first_down=0.57s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59447 -> 52.29.146.233:10001 via 10.13.1.33:15001
+[ready] all system ready
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used  
+[summary] ----  ---------  ------------------  -------  ------  ----  ------
+[summary] 8424  connected  107.149.7.88:50002  32s      260B    145B  0.01MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=52.29.146.233:10001 started src_port=59447
+[conn] pid=8424 ended after 19s down=51.3KB up=3.0KB first_down=1.03s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59456 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[ready] all system ready
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used  
+[summary] ----  ---------  ------------------  -------  ------  ----  ------
+[summary] 8424  connected  107.149.7.88:50002  53s      2.4KB   149B  0.06MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59456
+[conn] pid=8424 ended after 1s down=4.0KB up=1.5KB first_down=0.35s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59458 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59458
+[conn] pid=8424 ended after 1s down=4.1KB up=1.5KB first_down=0.48s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59460 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59460
+[conn] pid=8424 ended after 2s down=4.1KB up=1.6KB first_down=0.51s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59462 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59462
+[conn] pid=8424 ended after 1s down=4.1KB up=1.5KB first_down=0.40s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59465 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[ready] all system ready
+[summary] pid   status     proxy ip            runtime  down/s  up/s  used  
+[summary] ----  ---------  ------------------  -------  ------  ----  ------
+[summary] 8424  connected  107.149.7.88:50002  1m04s    1.4KB   557B  0.09MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.09MB
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59465
+[conn] pid=8424 ended after 1s down=4.1KB up=1.6KB first_down=0.42s first_up=0.00s reason=game_closed
+[redirect] pid=8424 59467 -> 18.156.116.176:10001 via 10.13.1.33:15001
+[conn] pid=8424 proxy=107.149.7.88:50002 dst=18.156.116.176:10001 started src_port=59467
+[conn] pid=8424 ended after 16s down=84.1KB up=5.1KB first_down=0.41s first_up=0.00s reason=game_closed
+[warn] closed PixelWorlds.exe pid=8424
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.18MB

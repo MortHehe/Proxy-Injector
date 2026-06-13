@@ -1,0 +1,37 @@
+{
+    "listen_host":  "127.0.0.1",
+    "listen_port":  15000,
+    "transparent_bind_host":  "0.0.0.0",
+    "transparent_listen_port":  15001,
+    "redirect_map_path":  "redirect_map.json",
+    "target_process_name":  "PixelWorlds.exe",
+    "target_remote_port":  10001,
+    "target_remote_ports":  10001,
+    "default_route":  "proxy-1",
+    "max_pids_per_proxy":  3,
+    "auto_assign_routes":  true,
+    "verbose":  false,
+    "color_logs":  true,
+    "hide_proxy_in_list":  false,
+    "tcp_nodelay":  true,
+    "socket_keepalive":  true,
+    "socket_buffer_size":  131072,
+    "relay_buffer_size":  131072,
+    "connect_timeout_seconds":  10,
+    "summary_interval_seconds":  1.0,
+    "ipv6_target_action":  "bypass",
+    "no_reply_warn_seconds":  8.0,
+    "no_reply_close_seconds":  30.0,
+    "debug_log_path":  "network_debug.log",
+    "tracked_login_hosts":  [
+                                "11ef5c.playfabapi.com",
+                                "pw-auth.pw.sclfrst.com"
+                            ],
+    "proxy_protocol":  "socks5",
+    "routes":  [
+
+               ],
+    "upstreams":  [
+                      "growtechcentral.com:10000:7725d4000be179e0678c__cr.br:629b3e54a18cf77e"
+                  ]
+}

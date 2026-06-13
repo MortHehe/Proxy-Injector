@@ -1,0 +1,92 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=11352 -> proxy-1
+[game] detected PixelWorlds.exe pid=11352 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 11352  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=11352 53908 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[redirect] pid=32324 53911 -> 18.185.100.237:10001 via 10.13.1.33:15001
+[route] auto-assigned PixelWorldsProxy.exe pid=32324 -> proxy-1
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[game] detected PixelWorldsProxy.exe pid=32324 route=proxy-1
+[warn] closed ignored PixelWorlds.exe pid=11352
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  0s       0B      0B    0.00MB  1201ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.185.100.237:10001 started src_port=53911
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected
+[warn] closed ignored process pid=11352 reason=local target already redirected

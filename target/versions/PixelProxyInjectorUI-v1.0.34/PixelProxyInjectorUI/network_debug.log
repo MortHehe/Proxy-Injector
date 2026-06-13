@@ -1,0 +1,35 @@
+[2026-06-02 08:45:29] [ready] debug log started
+[2026-06-02 08:45:30] [track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[2026-06-02 08:46:52] [track] pid=16044 51996 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:46:54] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:54] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:54] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:55] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:55] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:55] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:56] [track] pid=16044 52014 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:46:58] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:46:59] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:01] [track] pid=16044 52020 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:47:02] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:04] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:47:04] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:09] [track] pid=16044 61465 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:47:13] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:16] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:17] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:47:21] [track] pid=16044 61492 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:47:24] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:24] [warn] pid=16044 61504 IPv6 target 2600:1901:0:e37d:::443; bypassed because the upstream proxy may reject IPv6
+[2026-06-02 08:47:28] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:28] [track] pid=16044 61514 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:47:31] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:31] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:31] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out
+[2026-06-02 08:47:32] [track] pid=16044 61521 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-02 08:47:34] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:35] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:37] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:38] [warn] closed PixelWorlds.exe pid=16044
+[2026-06-02 08:47:39] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: Unsupported error handling: replace
+[2026-06-02 08:47:45] [error] pid=16044 via 172.98.168.142.proxy.kyystore.net:1337 failed: timed out

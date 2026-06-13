@@ -1,0 +1,253 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[route] auto-assigned PixelWorlds.exe pid=46296 -> proxy-1
+[game] detected PixelWorlds.exe pid=46296 route=proxy-1
+[summary] pid    status    proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  --------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  assigned  206.232.13.228.geo.proxy.kyystore.net:1337  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 58386 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=46296 58394 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=46296 58395 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=46296 58396 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=46296 58397 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 58400 -> 54.194.215.174:443 via 192.168.100.98:15001
+[warn] pid=46296 57582 IPv6 target 2603:1061:14:165::1:443; bypassed because the upstream proxy may reject IPv6
+[redirect] pid=46296 57583 -> 150.171.110.104:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+
+
+
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  9s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 57587 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57590 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=46296 57592 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57593 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  10s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 57594 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 57595 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57596 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57597 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57598 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 57599 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57600 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 57601 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57602 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57604 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 57606 -> 34.8.90.77:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57610 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+
+[redirect] pid=46296 57613 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57614 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  20s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 57615 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57616 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 49288 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 49289 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 54212 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  22s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 54213 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 54214 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 54215 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+
+[redirect] pid=46296 58198 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 58201 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58205 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58206 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58207 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 58208 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 58209 -> 34.8.90.77:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58210 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 58211 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  29s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58212 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 58213 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58214 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  30s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 58215 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58216 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 58217 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  36s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 58218 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 58219 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64336 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 64337 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64338 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64339 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64340 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64341 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64342 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64343 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64344 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64345 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64346 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64347 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64348 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64349 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 64350 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 64351 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  46s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  46s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 57867 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57868 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  46s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57869 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57871 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57873 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57874 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57880 -> 54.194.215.174:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57881 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[redirect] pid=46296 57882 -> 34.8.90.77:443 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[summary] pid    status  proxy ip                                    runtime  down/s  up/s  used    latency
+[summary] -----  ------  ------------------------------------------  -------  ------  ----  ------  -------
+[summary] 46296  failed  206.232.13.228.geo.proxy.kyystore.net:1337  53s      0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=46296 57883 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57884 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[error] pid=46296 via 206.232.13.228.geo.proxy.kyystore.net:1337 failed: proxy DNS failed for 206.232.13.228.geo.proxy.kyystore.net:1337: [Errno 11002] getaddrinfo failed
+[redirect] pid=46296 57889 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=46296 57890 -> 63.176.210.142:10001 via 192.168.100.98:15001

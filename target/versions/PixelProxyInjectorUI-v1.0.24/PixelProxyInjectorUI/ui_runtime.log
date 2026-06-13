@@ -1,0 +1,236 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] targets=80,443,10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=38236 -> proxy-1
+[game] detected PixelWorlds.exe pid=38236 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=38236 61599 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=38236 61606 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=38236 61610 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=38236 61611 -> 175.139.142.25:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  4s       0B      0B    0.00MB  1246ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=34.8.90.77:443 started src_port=61599
+[redirect] pid=38236 61616 -> 34.149.147.227:443 via 192.168.100.98:15001
+[redirect] pid=38236 61618 -> 18.202.125.140:443 via 192.168.100.98:15001
+[redirect] pid=38236 61621 -> 18.202.125.140:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  5s       7.1KB   739B  0.00MB  463ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=34.96.113.148:443 started src_port=61606
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  5s       0B      5.5KB  0.01MB  463ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=34.120.217.85:443 started src_port=61610
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  5s       17.4KB  1.9KB  0.01MB  462ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=34.149.147.227:443 started src_port=61616
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  5s       149B    1.8KB  0.02MB  462ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.02MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=18.202.125.140:443 started src_port=61621
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=18.202.125.140:443 started src_port=61618
+[redirect] pid=38236 61625 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  8s       7.2KB   3.2KB  0.04MB  654ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.04MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=63.176.210.142:10001 started src_port=61625
+[warn] pid=38236 61629 IPv6 target 2404:6800:4001:814::200a:443; blocked so the game retries IPv4 through the proxy
+[redirect] pid=38236 61630 -> 142.250.193.234:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  12s      1.9KB   723B  0.05MB  650ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.05MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=142.250.193.234:443 started src_port=61630
+[error] pid=38236 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  failed  growtechcentral.com:10000  14s      2.0KB   427B  0.06MB  765ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.06MB
+[conn] pid=38236 ended after 10s down=6.3KB up=1017B first_down=0.46s first_up=0.00s reason=game_closed
+[redirect] pid=38236 61634 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=38236 61637 -> 34.8.90.77:443 via 192.168.100.98:15001
+[conn] pid=38236 ended after 7s down=5.3KB up=2.0KB first_down=0.65s first_up=0.00s reason=game_closed
+[conn] pid=38236 ended after 12s down=4.9KB up=5.8KB first_down=0.49s first_up=0.00s reason=game_closed
+[conn] pid=38236 ended after 5s down=15.4KB up=1.1KB first_down=0.77s first_up=0.00s reason=game_closed
+[conn] pid=38236 ended after 11s down=6.3KB up=1021B first_down=0.41s first_up=0.00s reason=game_closed
+[conn] pid=38236 ended after 11s down=4.9KB up=908B first_down=0.46s first_up=0.00s reason=game_closed
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  connected  growtechcentral.com:10000  17s      4.1KB   649B  0.07MB  765ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=38236 proxy=growtechcentral.com:10000 dst=34.8.90.77:443 started src_port=61637
+[conn] pid=38236 ended after 0s down=0B up=366B first_down=none first_up=0.00s reason=game_closed_before_server_reply
+[conn] pid=38236 ended after 12s down=5.0KB up=945B first_down=0.65s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[conn] pid=38236 ended after 12s down=7.1KB up=3.3KB first_down=0.63s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[warn] closed PixelWorlds.exe pid=38236
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.07MB
+[error] pid=38236 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 38236  failed  growtechcentral.com:10000  -        0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[route] auto-assigned PixelWorlds.exe pid=22068 -> proxy-1
+[game] detected PixelWorlds.exe pid=22068 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[redirect] pid=22068 58710 -> 34.8.90.77:443 via 192.168.100.98:15001
+[redirect] pid=22068 58718 -> 34.96.113.148:443 via 192.168.100.98:15001
+[redirect] pid=22068 58719 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=22068 58720 -> 34.120.217.85:443 via 192.168.100.98:15001
+[redirect] pid=22068 64893 -> 54.194.215.174:443 via 192.168.100.98:15001
+[redirect] pid=22068 64896 -> 54.194.215.174:443 via 192.168.100.98:15001
+[warn] pid=22068 64901 IPv6 target 2603:1061:14:165::1:443; blocked so the game retries IPv4 through the proxy
+[redirect] pid=22068 64902 -> 150.171.110.103:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  3s       0B      0B    0.00MB  1248ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=34.8.90.77:443 started src_port=58710
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  4s       0B      1.5KB  0.00MB  1150ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=34.96.113.148:443 started src_port=58718
+[summary] pid    status     proxy ip                   runtime  down/s  up/s    used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ------  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  4s       0B      10.8KB  0.00MB  1182ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.07MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=34.120.217.85:443 started src_port=58720
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  4s       28.1KB  1.3KB  0.01MB  412ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.08MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=54.194.215.174:443 started src_port=64893
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=54.194.215.174:443 started src_port=64896
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  5s       1.9KB   8.6KB  0.02MB  412ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.09MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=150.171.110.103:443 started src_port=64902
+[redirect] pid=22068 64908 -> 34.149.147.227:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  9s       6.0KB   1.6KB  0.05MB  745ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.12MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=34.149.147.227:443 started src_port=64908
+[redirect] pid=22068 64910 -> 63.176.210.142:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  12s      2.0KB   304B  0.06MB  450ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=63.176.210.142:10001 started src_port=64910
+[error] pid=22068 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  failed  growtechcentral.com:10000  13s      3.3KB   1.1KB  0.06MB  646ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[redirect] pid=22068 64914 -> 175.139.142.25:443 via 192.168.100.98:15001
+[redirect] pid=22068 64919 -> 142.250.193.234:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  15s      129B    112B  0.06MB  646ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.13MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=142.250.193.234:443 started src_port=64919
+[conn] pid=22068 ended after 4s down=5.0KB up=1.8KB first_down=0.65s first_up=0.00s reason=game_closed
+[redirect] pid=22068 64922 -> 3.71.85.18:10001 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s   used    latency
+[summary] -----  ---------  -------------------------  -------  ------  -----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  17s      2.2KB   1.0KB  0.07MB  739ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.14MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=3.71.85.18:10001 started src_port=64922
+[error] pid=22068 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  failed  growtechcentral.com:10000  24s      1.0KB   51B   0.08MB  739ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.15MB
+[redirect] pid=22068 49912 -> 175.139.142.25:443 via 192.168.100.98:15001
+[warn] pid=22068 dst=3.71.85.18:10001 has upload traffic but no server reply yet
+[error] pid=22068 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  failed  growtechcentral.com:10000  35s      4.9KB   322B  0.13MB  8474ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.20MB
+[conn] pid=22068 ended after 32s down=4.8KB up=3.9KB first_down=0.41s first_up=0.00s reason=game_closed
+[redirect] pid=22068 60555 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=22068 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  failed  growtechcentral.com:10000  47s      5.1KB   309B  0.20MB  8474ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.27MB
+[conn] pid=22068 ended after 44s down=4.9KB up=908B first_down=0.41s first_up=0.00s reason=game_closed
+[redirect] pid=22068 52623 -> 34.96.113.148:443 via 192.168.100.98:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  connected  growtechcentral.com:10000  1m02s    2.7KB   293B  0.24MB  8474ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.31MB
+[conn] pid=22068 proxy=growtechcentral.com:10000 dst=34.96.113.148:443 started src_port=52623
+[conn] pid=22068 ended after 55s down=6.3KB up=1021B first_down=0.45s first_up=0.00s reason=game_closed
+[redirect] pid=22068 52631 -> 175.139.142.25:443 via 192.168.100.98:15001
+[error] pid=22068 via growtechcentral.com:10000 failed: timed out
+[summary] pid    status  proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ------  -------------------------  -------  ------  ----  ------  -------
+[summary] 22068  failed  growtechcentral.com:10000  1m27s    1.9KB   262B  0.29MB  408ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.36MB
+[conn] pid=22068 ended after 1m15s down=175.0KB up=10.8KB first_down=8.47s first_up=0.00s reason=game_closed
+[conn] pid=22068 ended after 31s down=4.9KB up=3.7KB first_down=0.41s first_up=0.00s reason=game_closed[conn] pid=22068 ended after 1m30s down=6.6KB up=5.0KB first_down=0.47s first_up=0.00s reason=game_closed[conn] pid=22068 ended after 1m18s down=35.3KB up=2.0KB first_down=0.74s first_up=0.00s reason=game_closed
+
+
+[conn] pid=22068 ended after 1m29s down=12.4KB up=6.2KB first_down=0.75s first_up=0.00s reason=game_closed
+[conn] pid=22068 ended after 1m30s down=5.0KB up=945B first_down=0.62s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host[conn] pid=22068 ended after 1m30s down=6.5KB up=2.6KB first_down=0.64s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+[warn] closed PixelWorlds.exe pid=22068
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.37MB

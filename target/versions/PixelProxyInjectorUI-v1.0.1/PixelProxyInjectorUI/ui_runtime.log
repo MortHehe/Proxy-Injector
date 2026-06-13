@@ -1,0 +1,31 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=127.0.0.1:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=26164 -> proxy-1
+[game] detected PixelWorlds.exe pid=26164 route=proxy-1
+[ready] all system ready
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used  
+[summary] -----  --------  -------------------------  -------  ------  ----  ------
+[summary] 26164  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=26164 56789 -> 63.183.104.49:10001 via 127.0.0.1:15001
+[redirect] pid=26164 56793 -> 18.156.116.176:10001 via 127.0.0.1:15001
+[ready] all system ready
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used  
+[summary] -----  --------  -------------------------  -------  ------  ----  ------
+[summary] 26164  assigned  growtechcentral.com:10000  31s      0B      0B    0.00MB
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[warn] closed PixelWorlds.exe pid=26164
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used
+[summary] ---  ------  --------  -------  ------  ----  ----
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB

@@ -1,0 +1,59 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=29260 -> proxy-1
+[game] detected PixelWorlds.exe pid=29260 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 29260  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=29260 63515 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=29260 reason=local target already redirected
+[redirect] pid=32324 63518 -> 3.79.238.237:10001 via 10.13.1.33:15001
+[route] auto-assigned PixelWorldsProxy.exe pid=32324 -> proxy-1
+[game] detected PixelWorldsProxy.exe pid=32324 route=proxy-1
+[warn] closed ignored PixelWorlds.exe pid=29260
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  1s       0B      0B    0.00MB  1307ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=3.79.238.237:10001 started src_port=63518
+[conn] pid=32324 ended after 5s down=5.4KB up=1.9KB first_down=0.72s first_up=0.00s reason=game_closed
+[warn] closed connection pid=32324 reason=game_closed
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency[redirect] pid=32324 51321 -> 18.185.100.237:10001 via 10.13.1.33:15001
+
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.01MB
+[route] auto-assigned PixelWorldsProxy.exe pid=32324 -> proxy-1
+[redirect] pid=32324 51323 -> 18.185.100.237:10001 via 10.13.1.33:15001
+[error] pid=? 63515 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=0 reason=local target already redirected
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.185.100.237:10001 started src_port=51323
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  -        0B      0B    0.00MB  1747ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.01MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.185.100.237:10001 started src_port=51321
+[conn] pid=32324 ended after 24s down=0B up=0B first_down=none first_up=none reason=proxy_closed
+[conn] pid=32324 ended after 1m10s down=54.5KB up=2.7KB first_down=0.80s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[warn] closed connection pid=32324 reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.06MB

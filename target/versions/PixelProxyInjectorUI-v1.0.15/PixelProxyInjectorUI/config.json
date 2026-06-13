@@ -1,0 +1,6 @@
+{
+    "proxy_protocol":  "socks5",
+    "upstreams":  [
+                      "growtechcentral.com:10000:7725d4000be179e0678c__cr.br:629b3e54a18cf77e"
+                  ]
+}

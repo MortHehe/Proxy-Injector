@@ -1,0 +1,57 @@
+[ready] UI worker starting
+[ready] all system ready
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[route] auto-assigned PixelWorlds.exe pid=18332 -> proxy-1
+[game] detected PixelWorlds.exe pid=18332 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 18332  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[error] pid=18332 51089 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=18332 reason=local target already redirected
+[redirect] pid=32324 51092 -> 18.185.100.237:10001 via 10.13.1.33:15001
+[route] auto-assigned PixelWorldsProxy.exe pid=32324 -> proxy-1
+[game] detected PixelWorldsProxy.exe pid=32324 route=proxy-1
+[warn] closed ignored PixelWorlds.exe pid=18332
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  0s       0B      0B    0.00MB  1234ms 
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.185.100.237:10001 started src_port=51092
+[conn] pid=32324 ended after 22s down=75.5KB up=4.2KB first_down=0.64s first_up=0.00s reason=game_closed
+[redirect] pid=32324 56475 -> 18.197.33.190:10001 via 10.13.1.33:15001
+[error] pid=? 51089 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=0 reason=local target already redirected
+[redirect] pid=32324 56478 -> 18.197.33.190:10001 via 10.13.1.33:15001
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  24s      3.2KB   180B  0.08MB  639ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.08MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.197.33.190:10001 started src_port=56475
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=18.197.33.190:10001 started src_port=56478
+[conn] pid=32324 ended after 13s down=0B up=0B first_down=none first_up=none reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[conn] pid=32324 ended after 41s down=367.4KB up=5.1KB first_down=0.69s first_up=0.00s reason=game_closed
+[redirect] pid=32324 59541 -> 3.79.238.237:10001 via 10.13.1.33:15001
+[redirect] pid=32324 59544 -> 3.79.238.237:10001 via 10.13.1.33:15001
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=3.79.238.237:10001 started src_port=59541
+[summary] pid    status     proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  ---------  -------------------------  -------  ------  ----  ------  -------
+[summary] 32324  connected  growtechcentral.com:10000  1m07s    8.6KB   122B  0.44MB  692ms  
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.44MB
+[conn] pid=32324 proxy=growtechcentral.com:10000 dst=3.79.238.237:10001 started src_port=59544
+[conn] pid=32324 ended after 8s down=0B up=0B first_down=none first_up=none reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host
+[conn] pid=32324 ended after 27s down=173.3KB up=3.2KB first_down=0.88s first_up=0.00s reason=game_recv_failed: [WinError 10054] An existing connection was forcibly closed by the remote host

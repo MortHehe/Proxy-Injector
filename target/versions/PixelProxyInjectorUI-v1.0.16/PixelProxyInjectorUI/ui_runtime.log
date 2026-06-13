@@ -1,0 +1,21 @@
+[ready] UI worker starting
+[ready] all system ready
+[route] auto-assigned PixelWorlds.exe pid=36332 -> proxy-1
+[game] detected PixelWorlds.exe pid=36332 route=proxy-1
+[summary] pid    status    proxy ip                   runtime  down/s  up/s  used    latency
+[summary] -----  --------  -------------------------  -------  ------  ----  ------  -------
+[summary] 36332  assigned  growtechcentral.com:10000  0s       0B      0B    0.00MB  -      
+[summary] total active instances: 1
+[summary] total bandwidth used: 0.00MB
+[redirect-ready] target=10001 transparent=adapter:15001 unknown-pid=on
+[error] pid=36332 49751 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=36332 reason=local target already redirected
+[error] pid=? 49751 target is local 127.0.0.1:10001; cannot proxy because the real game server IP is already hidden by another local redirect
+[warn] closed ignored process pid=0 reason=local target already redirected
+[warn] closed ignored PixelWorlds.exe pid=36332
+[summary] pid  status  proxy ip  runtime  down/s  up/s  used  latency
+[summary] ---  ------  --------  -------  ------  ----  ----  -------
+[summary] no active processes
+[summary] total active instances: 0
+[summary] total bandwidth used: 0.00MB
+[redirect] pid=? 49753 -> 35.159.62.49:10001 via 10.13.1.33:15001

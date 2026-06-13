@@ -1,0 +1,11 @@
+{
+  "proxy_protocol": "socks5",
+  "upstreams": [
+    "107.149.7.88:50002:kev3526:pass3222",
+    "107.149.7.89:50002:kev4364:pass6767",
+    "107.149.7.90:50002:kev5375:pass8505"
+  ],
+  "max_pids_per_proxy": 3,
+  "summary_interval_seconds": 1.0,
+  "hide_proxy_in_list": false
+}

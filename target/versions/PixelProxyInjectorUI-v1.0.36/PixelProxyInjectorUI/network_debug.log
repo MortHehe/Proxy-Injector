@@ -1,0 +1,18 @@
+[2026-06-04 14:31:46] [ready] debug log started
+[2026-06-04 14:31:47] [track] login tracker hosts=11ef5c.playfabapi.com,pw-auth.pw.sclfrst.com resolved-ips=3
+[2026-06-04 14:31:56] [track] pid=33716 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:31:57] [track] pid=33716 63079 login-host=11ef5c.playfabapi.com ip=2603:1061:14:167::1:443 action=bypass endpoint=hidden-by-https
+[2026-06-04 14:31:57] [warn] pid=33716 63079 IPv6 target 2603:1061:14:167::1:443; bypassed because the upstream proxy may reject IPv6
+[2026-06-04 14:31:57] [track] pid=33716 tls-clienthello dst=34.120.217.85:443 sni=api.nexus.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:31:57] [track] pid=33716 tls-clienthello dst=34.96.113.148:443 sni=collect.analytics.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:31:57] [track] pid=33716 tls-clienthello dst=34.111.113.40:443 sni=config.uca.cloud.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:31:57] [track] pid=33716 63082 login-host=pw-auth.pw.sclfrst.com ip=34.149.147.227:443 action=proxy endpoint=hidden-by-https
+[2026-06-04 14:31:57] [track] pid=33716 tls-clienthello dst=34.249.176.123:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-04 14:31:57] [track] pid=33716 tls-clienthello dst=34.249.176.123:443 sni=statgw.devtodev.com record=TLS1.2 client=TLS1.2 versions=- alpn=-
+[2026-06-04 14:31:58] [track] pid=33716 tls-clienthello dst=34.149.147.227:443 sni=pw-auth.pw.sclfrst.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:31:59] [track] pid=33716 tls-clienthello dst=34.107.172.168:443 sni=cdp.cloud.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:32:00] [track] pid=33716 tls-clienthello dst=34.160.10.162:443 sni=engine-data.services.api.unity.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:32:03] [track] pid=33716 tls-clienthello dst=34.160.10.162:443 sni=insights.services.api.unity.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:32:03] [track] pid=33716 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
+[2026-06-04 14:32:16] [track] pid=33716 65014 login-host=11ef5c.playfabapi.com ip=2603:1061:14:167::1:443 action=bypass endpoint=hidden-by-https
+[2026-06-04 14:32:19] [track] pid=33716 tls-clienthello dst=34.8.90.77:443 sni=engine-data.unity3d.com record=TLS1.2 client=TLS1.2 versions=- alpn=h2,http/1.1
